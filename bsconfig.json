@@ -1,0 +1,13 @@
+{
+    "name": "promise_repro",
+    "version": "0.1.0",
+    "package-specs": {
+        "module": "es6",
+        "in-source": true
+    },
+    "sources": {
+        "dir": "src",
+        "subdirs": true
+    },
+    "bs-dependencies": ["@ryyppy/rescript-promise"]
+}

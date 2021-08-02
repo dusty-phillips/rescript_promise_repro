@@ -1,0 +1,22 @@
+{
+    "name": "promise_repro",
+    "version": "0.1.0",
+    "type": "module",
+    "scripts": {
+        "start": "node src/demo.js",
+        "clean": "rescript clean",
+        "build": "rescript build -with-deps",
+        "watch": "rescript build -w -with-deps"
+    },
+    "keywords": [
+        "ReScript"
+    ],
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+        "rescript": "^9.1.4"
+    },
+    "dependencies": {
+        "@ryyppy/rescript-promise": "ryyppy/rescript-promise"
+    }
+}
